@@ -1,0 +1,43 @@
+[
+  {
+    "id": "001",
+    "title": "创建 calculator.py",
+    "status": "completed",
+    "description": "实现加减乘除四个函数",
+    "acceptance": "所有函数可正常调用并返回正确结果",
+    "priority": 10,
+    "tags": [
+      "core",
+      "math"
+    ],
+    "created_at": "2026-01-22T10:00:00",
+    "completed_at": "2026-01-22T10:22:21.250046"
+  },
+  {
+    "id": "002",
+    "title": "编写单元测试",
+    "status": "failed",
+    "description": "为 calculator.py 编写 pytest 测试",
+    "acceptance": "测试覆盖率 > 90%",
+    "priority": 9,
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-01-22T10:00:00",
+    "completed_at": null
+  },
+  {
+    "id": "003",
+    "title": "运行测试并报告结果",
+    "status": "completed",
+    "description": "执行 pytest 并确保所有测试通过",
+    "acceptance": "所有测试通过，无失败",
+    "priority": 8,
+    "tags": [
+      "test",
+      "ci"
+    ],
+    "created_at": "2026-01-22T10:00:00",
+    "completed_at": "2026-01-22T10:27:44.145473"
+  }
+]
